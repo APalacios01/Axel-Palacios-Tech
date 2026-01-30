@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Axel Palacios — Portfolio</title>
+  <meta name="description" content="Axel Palacios portfolio site (GitHub Pages)." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="./" aria-label="Home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-name">AXEL</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="./" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html" class="nav-cta">Contact</a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+      <a href="./" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="projects.html">Projects</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <p class="kicker">IT • Cybersecurity • Student</p>
+          <h1>Hi, I’m <span class="accent">Axel</span>.<br />Building <span class="accent">secure</span> and clean tech.</h1>
+          <p class="lead">
+            I’m an IT/Cybersecurity-focused student building projects in networking, app development,
+            and security fundamentals. This site is hosted on GitHub Pages.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn" href="assets/resume/resume.pdf" download>Download CV</a>
+            <a class="btn btn-ghost" href="#projects">
+              <span class="play" aria-hidden="true"></span>
+              Watch the work
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="meta-pill">Based in GA</div>
+            <div class="meta-pill">Open to internships</div>
+            <div class="meta-pill">Bilingual: EN/ES</div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="portrait-wrap">
+            <img src="assets/img/portrait.svg" alt="Portrait placeholder" />
+          </div>
+          <p class="small muted center">Replace <code>assets/img/portrait.svg</code> with your photo.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Featured projects</h2>
+          <p class="muted">3–6 strong projects is perfect. Keep descriptions short.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Networking / Wireshark Lab</h3>
+            <p>Packet capture analysis, HTTP inspection, and troubleshooting notes.</p>
+            <div class="card-links">
+              <a href="#">Write-up</a>
+              <a href="#">Repo</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>SQL Database Project</h3>
+            <p>ERD → normalized tables → queries for reports and stats.</p>
+            <div class="card-links">
+              <a href="#">Repo</a>
+              <a href="#">Screenshots</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Java / Python App</h3>
+            <p>Menu-driven CLI app with validation, clean structure, and comments.</p>
+            <div class="card-links">
+              <a href="#">Repo</a>
+              <a href="#">Demo</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container two-col">
+        <div>
+          <h2>What I do</h2>
+          <p class="muted">
+            You can keep this section as “skills / services” (even as a student).
+            It helps recruiters quickly see what you’re good at.
+          </p>
+        </div>
+        <ul class="list">
+          <li><strong>Networking basics:</strong> VLANs, packet analysis, troubleshooting</li>
+          <li><strong>Security fundamentals:</strong> secure habits, least privilege, risk thinking</li>
+          <li><strong>Development:</strong> Java/Python projects, Git/GitHub, clean docs</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <p>© <span id="year"></span> Axel. Built with GitHub Pages.</p>
+        <div class="footer-links">
+          <a href="contact.html">Contact</a>
+          <a href="projects.html">Projects</a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>

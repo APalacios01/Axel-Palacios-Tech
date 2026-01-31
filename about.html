@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>About — Axel</title>
   <meta name="description" content="About Axel." />
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="assets/AP-icon.png" type="image/svg+xml" />
   <link rel="stylesheet" href="assets/css/styles.css" />
   <script defer src="assets/js/main.js"></script>
 </head>
@@ -13,13 +13,12 @@
   <header class="site-header">
     <div class="container header-row">
       <a class="brand" href="./" aria-label="Home">
-        <span class="brand-mark" aria-hidden="true"></span>
+        <img class="brand-mark" src="assets/img/AP-icon.png" alt="AP logo">
         <span class="brand-name">AXEL</span>
       </a>
       <nav class="nav" aria-label="Primary navigation">
         <a href="./">Home</a>
         <a href="about.html">About</a>
-        <a href="services.html">Services</a>
         <a href="projects.html">Projects</a>
         <a href="blog.html">Blog</a>
         <a href="contact.html" class="nav-cta">Contact</a>
@@ -31,28 +30,39 @@
     <div class="mobile-nav" id="mobileNav" aria-hidden="true">
       <a href="./">Home</a>
       <a href="about.html">About</a>
-      <a href="services.html">Services</a>
       <a href="projects.html">Projects</a>
       <a href="blog.html">Blog</a>
       <a href="contact.html">Contact</a>
     </div>
   </header>
 
-  <main class="section">
-    <div class="container">
+  <section class="section">
+  <div class="container about-grid">
+
+    <!-- LEFT: PHOTO -->
+    <div class="about-left">
+      <img src="assets/img/AP-icon.png" alt="Axel Palacios AP logo">
+    </div>
+
+    <!-- RIGHT: TEXT -->
+    <div class="about-right">
       <h1>About</h1>
+
       <div class="prose">
         
-<p class="lead">Write a short bio that sounds like you.</p>
+<p class="lead">I’m Axel Palacios, an Information Technology student at Kennesaw State University focused on
+cybersecurity, networking, and data analytics. I enjoy building hands-on technical projects and
+working through real-world problems in systems, databases, and security labs.</p>
 <p>
-  Example: I’m a junior at Kennesaw State University focused on IT and cybersecurity. I like
-  hands-on projects (networking labs, scripting, databases) and building things that are clean,
-  secure, and easy to use.
+  My background includes network packet analysis with Wireshark, SQL database design and
+normalization, Git/GitHub version control, and Java/Python application development. I like
+projects that are practical, well-documented, and security-minded.
 </p>
 <ul class="list">
-  <li><strong>Focus:</strong> Cybersecurity, networking, IT support</li>
-  <li><strong>Skills:</strong> Java, Python, SQL, Git/GitHub</li>
-  <li><strong>Tools:</strong> Wireshark, SSMS/Azure Data Studio</li>
+   <li><strong>Focus:</strong> Cybersecurity, Networking, Data Analytics</li>
+  <li><strong>Technical Skills:</strong> Java, Python, SQL, Git/GitHub, HTML/CSS</li>
+  <li><strong>Tools:</strong> Wireshark, SSMS, Azure Data Studio, VS Code</li>
+  <li><strong>Languages:</strong> English & Spanish (Bilingual)</li>
 </ul>
 
       </div>
@@ -61,10 +71,9 @@
 
   <footer class="site-footer">
     <div class="container footer-row">
-      <p>© <span id="year"></span> Axel. Built with GitHub Pages.</p>
+      <p>© <span id="year"></span> Axel Palacios</p>
       <div class="footer-links">
         <a href="contact.html">Contact</a>
-        <a href="projects.html">Projects</a>
       </div>
     </div>
   </footer>

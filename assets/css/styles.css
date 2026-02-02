@@ -410,3 +410,15 @@ h2{ margin: 0; font-size: 1.6rem; }
     grid-template-columns: 1fr;
   }
 }
+
+.contact-icon img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.contact-icon:hover img {
+  transform: scale(1.1);
+  opacity: 0.85;
+}

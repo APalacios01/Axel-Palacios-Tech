@@ -449,3 +449,40 @@ h2{ margin: 0; font-size: 1.6rem; }
   transform: scale(1.15);
   filter: brightness(1.1);
 }
+
+.wellconnect-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 12px 0 16px;
+}
+
+.wellconnect-thumb {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+  border-radius: 16px;
+  background: linear-gradient(145deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
+  padding: 10px;
+  box-shadow: 
+    0 0 0 1px rgba(255,255,255,0.08),
+    0 8px 24px rgba(0, 0, 0, 0.35),
+    0 0 12px rgba(167, 139, 250, 0.25); /* subtle purple glow */
+    transition: transform 0.15s ease;
+}
+
+.wellconnect-thumb:hover {
+  transform: scale(1.04);
+}
+
+.badge {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  background: rgba(250, 204, 21, 0.15);
+  color: #fde68a;
+  border: 1px solid rgba(250, 204, 21, 0.35);
+  letter-spacing: 0.4px;
+}
